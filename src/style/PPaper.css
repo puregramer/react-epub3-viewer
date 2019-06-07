@@ -1,0 +1,42 @@
+/***
+ * file name : PPaper.css
+ * description : PPaper style file
+ * create date : 2019-01-09
+ * creator : saltgamer
+ ***/
+
+body {
+
+    background-color: #333;
+    overflow: hidden;
+
+}
+
+#PPaper {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    user-select: none;
+    -ms-user-select: none;
+}
+
+.dummyPage {
+    position: absolute;
+    background-color: #ccc;
+    height: 100%;
+    /*display: none;*/
+}
+
+.debugLog {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 400px;
+    height: 300px;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    z-index: 10000;
+    font-size: 13px;
+}

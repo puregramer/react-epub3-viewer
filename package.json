@@ -1,0 +1,43 @@
+{
+  "name": "ppaper",
+  "version": "0.0.1",
+  "description": "PPaper prototype",
+  "private": true,
+  "scripts": {
+    "test": "test",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development --open"
+  },
+  "keywords": [
+    "ppaper"
+  ],
+  "author": "saltgamer",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "custom-event-polyfill": "^1.0.6",
+    "file-loader": "^1.1.11",
+    "gsap": "^2.0.2",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-redux": "^6.0.0",
+    "redux": "^4.0.1",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.14",
+    "whatwg-fetch": "^2.0.4"
+  },
+  "dependencies": {
+    "firebase-tools": "^6.4.0",
+    "npm": "^6.9.0",
+    "react-compound-slider": "^1.2.1"
+  }
+}
